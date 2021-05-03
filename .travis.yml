@@ -1,0 +1,15 @@
+language: php
+services:
+  - docker
+script:
+  - docker build . -t personal
+  - docker run -v "$PWD":/app personal
+branches:
+  only: master
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: dist
+  on:
+    branch: master
