@@ -17,4 +17,4 @@ COPY --chown=personal2021:personal2021 . ./
 
 RUN composer dump-autoload --optimize
 
-CMD vendor/bin/vogen && php app.php
+CMD vendor/bin/vogen && php app.php && wkhtmltopdf "file:///app/dist/cv.html" /app/dist/chris-harrison-cv.pdf
