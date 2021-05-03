@@ -30,7 +30,6 @@ $runner = new PipelineRunner(
     new RunnerMiddlewareChain([
         // Middleware
         new StaticAssets(new LocalInputProvider(__DIR__ . '/content/static')),
-        new CV(),
     ]),
     new LocalInputProvider(__DIR__ . '/content/pages'),
     new LocalOutputProvider(__DIR__ . '/dist')
