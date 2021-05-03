@@ -1,4 +1,5 @@
 /.idea/
 /dist/
 /.vo.code/
+/vendor/
 .phpunit.result.cache
