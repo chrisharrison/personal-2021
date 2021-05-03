@@ -1,0 +1,30 @@
+section, .dont-break {
+    page-break-inside: avoid !important;
+}
+
+body {
+    padding: 1.2em;
+    color: black;
+}
+
+a {
+    color: black;
+    border-color: black;
+}
+
+h1 {
+    padding-top: 1em;
+}
+
+.dont-break {
+    padding-top: 3em;
+}
+
+section h2 {
+    border: none;
+    margin-bottom: 0.8em;
+}
+
+a[href]:after {
+    content: "";
+}

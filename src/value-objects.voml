@@ -1,0 +1,25 @@
+composite Artifact {
+    title: ArtifactTitle
+    filepath: Filepath!
+    body: ArtifactBody!
+}
+
+set Artifacts[Artifact]
+
+string ArtifactTitle
+string ArtifactBody
+
+composite Filepath {
+    root: FilepathRoot!
+    base: FilepathBase
+    filename: FilepathFilename!
+    extension: FilepathExtension!
+}
+
+string FilepathRoot
+
+string FilepathBase
+
+string FilepathFilename
+
+string FilepathExtension

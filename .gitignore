@@ -1,0 +1,4 @@
+/.idea/
+/dist/
+/.vo.code/
+.phpunit.result.cache
