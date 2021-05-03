@@ -74,10 +74,12 @@
 
 * {$CAL} April 2016 - November 2016
 * {$MAP} Cornwall, UK
-* Wrote web based clinical software for use in the NHS. Worked within an Agile team with a 1:1 dev/tester ratio. All project cards had to go through code review and testing in order to pass. Evidence of this was recorded in order to meet NHS mandated standards.
+* Microtest is one of 4 'tier 1 providers' of software to the UK's National Health Service.
+* Wrote web based clinical software for use in the NHS. Worked within an Agile team with a 1:1 dev/tester ratio.
 * Worked to guidelines set by clinical safety officer.
-* Developed a locum matching service for GP practices to book locum doctors into sessions. System handled the locums' PDF based invoices and NHS pension forms based on hours worked.
 * Worked on a fast vaccination service. Ability for clinic leaders to specify vaccinations, vaccination routes/jab sites and patients. Practitioner can quickly and easily record vaccinations into patient notes after vaccinations performed.
+* Architected a locum matching service for GP practices to book locum doctors into sessions. System handled the locums' PDF based invoices and NHS pension forms based on hours worked.
+
 </div>
 
 <div class="dont-break" markdown="1">
