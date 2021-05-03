@@ -44,5 +44,6 @@ final class PipelineRunner
         $this->middleware->run($stack)->iterate(function (Artifact $artifact) use ($outputStream) {
             $outputStream->write($artifact);
         });
+        $outputStream->flush();
     }
 }

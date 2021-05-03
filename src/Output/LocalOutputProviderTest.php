@@ -2,10 +2,8 @@
 
 declare(strict_types=1);
 
-namespace ChrisHarrison\Personal2021\Input;
+namespace ChrisHarrison\Personal2021\Output;
 
-use ChrisHarrison\Personal2021\Output\LocalOutputProvider;
-use ChrisHarrison\Personal2021\Output\LocalOutputStream;
 use PHPUnit\Framework\TestCase;
 
 final class LocalOutputProviderTest extends TestCase
