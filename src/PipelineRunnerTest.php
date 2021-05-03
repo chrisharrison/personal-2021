@@ -61,10 +61,9 @@ final class PipelineRunnerTest extends TestCase
                 $this->filepath = $filepath;
             }
 
-            public function run(callable $stack, OutputStream $output): void
+            public function run(callable $stack): Artifacts
             {
-                $stack();
-                $output->write(Artifact::fromNative([
+                return $stack()->add(Artifact::fromNative([
                     'title' => null,
                     'body' => 'middleware-provided',
                     'filepath' => $this->filepath->toNative(),

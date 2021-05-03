@@ -10,9 +10,11 @@ WORKDIR /app
 
 COPY --from=composer:2.0 /usr/bin/composer /usr/local/bin/composer
 
-COPY --chown=personal2021:personal2021 composer.json ./
-RUN composer install --prefer-dist --no-scripts --no-autoloader && rm -rf /root/.composer
+COPY --chown=personal2021:personal2021 composer.json composer.lock ./
+RUN composer install
 
 COPY --chown=personal2021:personal2021 . ./
+
+RUN composer dump-autoload --optimize
 
 CMD vendor/bin/vogen && php app.php

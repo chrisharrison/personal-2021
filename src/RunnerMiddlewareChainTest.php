@@ -7,63 +7,48 @@ namespace ChrisHarrison\Personal2021;
 use ChrisHarrison\Personal2021\Output\OutputStream;
 use PHPUnit\Framework\TestCase;
 use ValueObjects\Artifact;
+use ValueObjects\Artifacts;
+use ValueObjects\Filepath;
 
 final class RunnerMiddlewareChainTest extends TestCase
 {
     public function test_it_runs_all_inner_middleware()
     {
-        $buffer = new class {
-            private array $buffer = [];
-
-            public function buffer(string $description): void
-            {
-                $this->buffer[] = $description;
-            }
-
-            public function get(): array
-            {
-                return $this->buffer;
-            }
-        };
-
-        $testMiddleware = new class ($buffer) implements RunnerMiddleware
+        $testMiddleware = new class implements RunnerMiddleware
         {
-            private $buffer;
-
-            public function __construct($buffer)
+            public function run(callable $stack): Artifacts
             {
-                $this->buffer = $buffer;
-            }
+                $out = Artifacts::null()->add(Artifact::fromNative([
+                    'title' => 'before',
+                    'filepath' => Filepath::fromString('blah.txt')->toNative(),
+                    'body' => 'blah',
+                ]));
 
-            public function run(callable $stack, OutputStream $output)
-            {
-                $this->buffer->buffer('before');
-                $out = $stack();
-                $this->buffer->buffer('after-' . $out);
-                return $out;
-            }
-        };
+                $out = $out->addMany($stack());
 
-        $output = new class implements OutputStream
-        {
-            public function write(Artifact $artifact): void
-            {
-            }
-
-            public function flush(): void
-            {
+                return $out->add(Artifact::fromNative([
+                    'title' => 'after',
+                    'filepath' => Filepath::fromString('blah.txt')->toNative(),
+                    'body' => 'blah',
+                ]));
             }
         };
 
         $chain = new RunnerMiddlewareChain([$testMiddleware, $testMiddleware, $testMiddleware]);
-        $chain->run(function () use ($buffer) {
-            $buffer->buffer('action');
-            return 'dummy-output';
-        }, $output);
+        $artifacts = $chain->run(function () {
+            return Artifacts::null()->add(Artifact::fromNative([
+                'title' => 'action',
+                'filepath' => Filepath::fromString('blah.txt')->toNative(),
+                'body' => 'blah',
+            ]));
+        });
 
         $this->assertEquals(
-            ['before', 'before', 'before', 'action', 'after-dummy-output', 'after-dummy-output', 'after-dummy-output'],
-            $buffer->get(),
+            ['before', 'before', 'before', 'action', 'after', 'after', 'after'],
+            $artifacts->reduce(function (array $acc, Artifact $artifact) {
+                $acc[] = $artifact->title()->toNative();
+                return $acc;
+            }, [])
         );
     }
 }
