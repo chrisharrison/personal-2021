@@ -164,7 +164,7 @@ On December 7th 2017 I gave a talk at Tech Exeter about event sourcing.
 * {$CAL} January 2014 - April 2016
 * {$MAP} Singapore
 
-### Senior software developer, Induxive Sdn Bhd
+### Senior web developer, Induxive Sdn Bhd
 
 * {$CAL} September 2012 - January 2014
 * {$MAP} Johor, Malaysia
