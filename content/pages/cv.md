@@ -39,9 +39,14 @@
 
 <section id="experience" markdown="1">
 
+### Software engineer, EDF Energy Ltd
+
+* {$CAL} August 2021 - Present
+* {$MAP} Exeter, UK
+
 ### Senior software engineer, Black Tree Gaming Ltd
 
-* {$CAL} July 2020 - Present
+* {$CAL} July 2020 - August 2021
 * {$MAP} Exeter, UK
 * Black Tree Gaming is the company behind [Nexus Mods](https://nexusmods.com). The website hosts 300k gaming mods. The user base is 26 million strong and there have been over 4.6 billion mod downloads to date.
 * August 2020 I introduced a domain events system into the architecture to handle communication between the various microservices.
