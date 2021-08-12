@@ -5,7 +5,7 @@
 <p id="shout-out" markdown="1">
 
 I'm a software engineer with {$YEARS_OF_EXPERIENCE} years of professional experience.
-I'm currently based in [Exeter, UK](https://www.flickr.com/photos/131736056@N05/35240658905) at [Nexus Mods](https://nexusmods.com), writing software to serve 300,000 gaming mods to 26 million users.
+I'm currently based in [Exeter, UK](https://www.flickr.com/photos/131736056@N05/35240658905) at [EDF Energy](https://nexusmods.com), writing software to help the UK achieve net zero.
 
 </p>
 
@@ -139,9 +139,13 @@ On December 7th 2017 I gave a talk at Tech Exeter about event sourcing.
 
 ## Experience
 
+### Software engineer, EDF Energy Ltd
+* {$CAL} August 2021 - Present
+* {$MAP} Exeter, UK
+
 ### Senior software engineer, Black Tree Gaming Ltd
 
-* {$CAL} July 2020 - Present
+* {$CAL} July 2020 - August 2021
 * {$MAP} Exeter, UK
 
 ### Technical lead, Funeral Guide Ltd
