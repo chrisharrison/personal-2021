@@ -5,7 +5,7 @@
 <p id="shout-out" markdown="1">
 
 I'm a software engineer with {$YEARS_OF_EXPERIENCE} years of professional experience.
-I'm currently based in [Exeter, UK](https://www.flickr.com/photos/131736056@N05/35240658905) at [EDF Energy](https://edfenergy.com), writing software to help the UK achieve net zero.
+I'm currently based in [Exeter, UK](https://www.flickr.com/photos/131736056@N05/35240658905) at [EDF Energy](https://edfenergy.com), writing software to optimise energy trading.
 
 </p>
 
