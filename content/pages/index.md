@@ -117,6 +117,7 @@ On December 7th 2017 I gave a talk at Tech Exeter about event sourcing.
 * Graph databases
 * GraphQL
 * Helm
+* Java
 * JavaScript
 * Kubernetes
 * MVC frameworks
@@ -131,6 +132,7 @@ On December 7th 2017 I gave a talk at Tech Exeter about event sourcing.
 * SOLID OOP
 * Swift
 * TDD
+* Typescript
 * Unit testing
 
 </section>
