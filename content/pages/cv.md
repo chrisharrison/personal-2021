@@ -19,6 +19,7 @@
 * Graph databases
 * GraphQL
 * Helm
+* Java
 * JavaScript
 * Kubernetes
 * MVC frameworks
@@ -33,6 +34,7 @@
 * SOLID OOP
 * Swift
 * TDD
+* Typescript
 * Unit testing
 
 </section>
