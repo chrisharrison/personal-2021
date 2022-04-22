@@ -160,7 +160,7 @@ On December 7th 2017 I gave a talk at Tech Exeter about event sourcing.
 * {$CAL} November 2016 - January 2019
 * {$MAP} Exeter, UK
 
-### Software developer, Microtest Ltd
+### Software developer, Microtest Health
 
 * {$CAL} April 2016 - November 2016
 * {$MAP} Cornwall, UK
