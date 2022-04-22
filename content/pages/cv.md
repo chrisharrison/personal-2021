@@ -77,7 +77,7 @@
 </div>
 
 <div class="dont-break" markdown="1">
-### Software developer, Microtest Ltd
+### Software developer, Microtest Health
 
 * {$CAL} April 2016 - November 2016
 * {$MAP} Cornwall, UK
