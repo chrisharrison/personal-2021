@@ -41,9 +41,14 @@
 
 <section id="experience" markdown="1">
 
-### Software engineer, EDF Energy Ltd
+### Senior software engineer, EDF Energy
 
-* {$CAL} August 2021 - Present
+* {$CAL} January 2023 - Present
+* {$MAP} Exeter, UK
+
+### Software engineer, EDF Energy
+
+* {$CAL} August 2021 - January 2023
 * {$MAP} Exeter, UK
 
 ### Senior software engineer, Black Tree Gaming Ltd
