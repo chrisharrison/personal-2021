@@ -141,8 +141,12 @@ On December 7th 2017 I gave a talk at Tech Exeter about event sourcing.
 
 ## Experience
 
-### Software engineer, EDF Energy Ltd
-* {$CAL} August 2021 - Present
+### Senior software engineer, EDF Energy
+* {$CAL} January 2023 - Present
+* {$MAP} Exeter, UK
+
+### Software engineer, EDF Energy
+* {$CAL} August 2021 - January 2023
 * {$MAP} Exeter, UK
 
 ### Senior software engineer, Black Tree Gaming Ltd
