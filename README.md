@@ -1,5 +1,7 @@
 # personal-2021
 
+[![Deployment](https://github.com/chrisharrison/personal-2021/actions/workflows/deployment.yml/badge.svg?branch=main)](https://github.com/chrisharrison/personal-2021/actions/workflows/deployment.yml)
+
 ## Developing locally
 
 1. Build the container:
