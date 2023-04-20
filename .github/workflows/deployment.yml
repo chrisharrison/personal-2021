@@ -1,0 +1,21 @@
+name: Deployment
+on:
+  push:
+    branches:
+      - main
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+
+      - name: Build 🏗️
+        run: |
+          docker build . -t personal
+          docker run -v "$PWD"/dist:/app/dist personal
+
+      - name: Deploy to GH Pages 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: dist
