@@ -138,7 +138,7 @@
 </div>
 
 <div class="dont-break" markdown="1">
-### Web developer, Ripplewerkz Pte Ltd
+### Web developer, Ren Media Ltd
 
 * {$CAL} April 2009 - April 2010
 * {$MAP} London, UK
