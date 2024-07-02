@@ -95,7 +95,7 @@
 </div>
 
 <div class="dont-break" markdown="1">
-### Technical lead, Netccentric Ltd
+### Technical lead, Xamble Group Ltd
 
 * {$CAL} January 2014 - April 2016
 * {$MAP} Singapore
@@ -113,7 +113,7 @@
 </div>
 
 <div class="dont-break" markdown="1">
-### Senior web developer, Induxive Sdn Bhd
+### Senior web developer, Induxive
 
 * {$CAL} September 2012 - January 2014
 * {$MAP} Johor, Malaysia
@@ -124,7 +124,7 @@
 </div>
 
 <div class="dont-break" markdown="1">
-### Web developer, Ripplewerkz Pte Ltd
+### Web developer, Ripple Digital
 
 * {$CAL} April 2010 - September 2012
 * {$MAP} Singapore
