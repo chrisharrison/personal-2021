@@ -169,17 +169,17 @@ On December 7th 2017 I gave a talk at Tech Exeter about event sourcing.
 * {$CAL} April 2016 - November 2016
 * {$MAP} Cornwall, UK
 
-### Technical lead, Netccentric Ltd
+### Technical lead, Xamble Group Ltd
 
 * {$CAL} January 2014 - April 2016
 * {$MAP} Singapore
 
-### Senior web developer, Induxive Sdn Bhd
+### Senior web developer, Induxive
 
 * {$CAL} September 2012 - January 2014
 * {$MAP} Johor, Malaysia
 
-### Web developer, Ripplewerkz Pte Ltd
+### Web developer, Ripple Digital
 
 * {$CAL} April 2010 - September 2012
 * {$MAP} Singapore
