@@ -42,17 +42,22 @@
 
 <section id="experience" markdown="1">
 
+<div class="dont-break" markdown="1">
 ### Senior software engineer, EDF Energy
 
 * {$CAL} January 2023 - Present
 * {$MAP} Exeter, UK
+</div>
 
+<div class="dont-break" markdown="1">
 ### Software engineer, EDF Energy
 
 * {$CAL} August 2021 - January 2023
 * {$MAP} Exeter, UK
 * Part of an engineering team in Wholesale Market Services supporting short term trading.
+</div>
 
+<div class="dont-break" markdown="1">
 ### Senior software engineer, Black Tree Gaming Ltd
 
 * {$CAL} July 2020 - August 2021
@@ -62,13 +67,16 @@
 * Sep - Dec 2020 I architected a notifications microservice to completely replace the way user notifications are delivered on the site. The 70 legacy notifications were part of a monolithic app embedded throughout the business logic. I replaced the trigger points with a set of domain events and wrote a new service in Ruby to fan out those domain events to user notifications. The deployment configuration was written in Kube/Helm.
 * Jan 2021 I replaced the way that mod searching worked throughout the site. The original mechanism used SQL to search a single table. I added a series of new domain events to reflect changes to mods into an Elasticsearch instance. All the queries were then converted to use Elasticsearch. Considering the original SQL queries had 30 different filtering, ordering and search options - there were many challenges.
 * March 2021 I embarked on a project to reduce the ratio of reads/writes on a legacy MySQL cluster that serves 30,000 queries per second.
+</div>
 
+<div class="dont-break" markdown="1">
 ### Technical lead, Funeral Guide Ltd
 
 * {$CAL} January 2019 - Present
 * {$MAP} Exeter, UK
 * Headed up development of the 'Arranger' SaaS product. Responsible for working with the product owner to manage sprints and to provide technical oversight and direction of both frontend and backend delivery. Was also a line manager to other engineers and acted as scrum master.
 * Responsible for the technical delivery and architecture of 'Arranger'. The API is an event sourced suite of microservices written in Node.js and PHP. The architecture is fully tenanted. The frontend is written in React and utilises Redux state management, offline capability and GraphQL. Arranger manages a funeral business' backend processes and offers a personalised service to the bereaved via an easy to use, graphically rich tablet interface.
+</div>
 
 <div class="dont-break" markdown="1">
 ### Senior software engineer, Funeral Guide Ltd
@@ -93,7 +101,6 @@
 * Worked to guidelines set by clinical safety officer.
 * Worked on a fast vaccination service. Ability for clinic leaders to specify vaccinations, vaccination routes/jab sites and patients. Practitioner can quickly and easily record vaccinations into patient notes after vaccinations performed.
 * Architected a locum matching service for GP practices to book locum doctors into sessions. System handled the locums' PDF based invoices and NHS pension forms based on hours worked.
-
 </div>
 
 <div class="dont-break" markdown="1">
