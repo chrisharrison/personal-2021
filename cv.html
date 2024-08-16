@@ -57,6 +57,7 @@
 <li>Node.js</li>
 <li>Objective C</li>
 <li>PHP</li>
+<li>Python</li>
 <li>React</li>
 <li>React Native</li>
 <li>Redis</li>
@@ -85,6 +86,7 @@
 <ul>
 <li><i class="fa fa-calendar" aria-hidden="true"></i> August 2021 - January 2023</li>
 <li><i class="fa fa-map-marker" aria-hidden="true"></i> Exeter, UK</li>
+<li>Part of an engineering team in Wholesale Market Services supporting short term trading.</li>
 </ul>
 
 <h3>Senior software engineer, Black Tree Gaming Ltd</h3>
@@ -95,7 +97,7 @@
 <li>Black Tree Gaming is the company behind <a href="https://nexusmods.com">Nexus Mods</a>. The website hosts 300k gaming mods. The user base is 26 million strong and there have been over 4.6 billion mod downloads to date.</li>
 <li>August 2020 I introduced a domain events system into the architecture to handle communication between the various microservices.</li>
 <li>Sep - Dec 2020 I architected a notifications microservice to completely replace the way user notifications are delivered on the site. The 70 legacy notifications were part of a monolithic app embedded throughout the business logic. I replaced the trigger points with a set of domain events and wrote a new service in Ruby to fan out those domain events to user notifications. The deployment configuration was written in Kube/Helm.</li>
-<li>Jan 2021 I replaced the way that mod searching worked throughout the site. The original mechanism used SQL to search a single table. I added a series of new domain events to reflect changes to mods into an Elasticsearch instance. All the queries were then converted to use Elasticsearch. Considering the original SQL queries had of 30 different filtering, ordering and search options - there were many challenges.</li>
+<li>Jan 2021 I replaced the way that mod searching worked throughout the site. The original mechanism used SQL to search a single table. I added a series of new domain events to reflect changes to mods into an Elasticsearch instance. All the queries were then converted to use Elasticsearch. Considering the original SQL queries had 30 different filtering, ordering and search options - there were many challenges.</li>
 <li>March 2021 I embarked on a project to reduce the ratio of reads/writes on a legacy MySQL cluster that serves 30,000 queries per second.</li>
 </ul>
 
