@@ -34,6 +34,7 @@
 * SaaS
 * SOLID OOP
 * Swift
+* Terraform
 * TDD
 * Typescript
 * Unit testing
