@@ -26,6 +26,7 @@
 * Node.js
 * Objective C
 * PHP
+* Python
 * React
 * React Native
 * Redis
@@ -50,6 +51,7 @@
 
 * {$CAL} August 2021 - January 2023
 * {$MAP} Exeter, UK
+* Part of an engineering team in Wholesale Market Services supporting short term trading.
 
 ### Senior software engineer, Black Tree Gaming Ltd
 
@@ -58,7 +60,7 @@
 * Black Tree Gaming is the company behind [Nexus Mods](https://nexusmods.com). The website hosts 300k gaming mods. The user base is 26 million strong and there have been over 4.6 billion mod downloads to date.
 * August 2020 I introduced a domain events system into the architecture to handle communication between the various microservices.
 * Sep - Dec 2020 I architected a notifications microservice to completely replace the way user notifications are delivered on the site. The 70 legacy notifications were part of a monolithic app embedded throughout the business logic. I replaced the trigger points with a set of domain events and wrote a new service in Ruby to fan out those domain events to user notifications. The deployment configuration was written in Kube/Helm.
-* Jan 2021 I replaced the way that mod searching worked throughout the site. The original mechanism used SQL to search a single table. I added a series of new domain events to reflect changes to mods into an Elasticsearch instance. All the queries were then converted to use Elasticsearch. Considering the original SQL queries had of 30 different filtering, ordering and search options - there were many challenges.
+* Jan 2021 I replaced the way that mod searching worked throughout the site. The original mechanism used SQL to search a single table. I added a series of new domain events to reflect changes to mods into an Elasticsearch instance. All the queries were then converted to use Elasticsearch. Considering the original SQL queries had 30 different filtering, ordering and search options - there were many challenges.
 * March 2021 I embarked on a project to reduce the ratio of reads/writes on a legacy MySQL cluster that serves 30,000 queries per second.
 
 ### Technical lead, Funeral Guide Ltd
