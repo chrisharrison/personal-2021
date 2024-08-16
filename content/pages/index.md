@@ -1,4 +1,4 @@
-# ![Chris Harrison](img/profile.jfif "Chris Harrison") Chris Harrison
+# ![Chris Harrison](img/profile.jpg "Chris Harrison") Chris Harrison
 
 <section>
 
