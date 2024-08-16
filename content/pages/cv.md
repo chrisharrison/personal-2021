@@ -48,6 +48,12 @@
 
 * {$CAL} January 2023 - Present
 * {$MAP} Exeter, UK
+* Senior engineer within an engineering team in Wholesale Market Services supporting short term trading.
+* Worked with direction from the lead engineer to standardise engineering practices across the wider WMS team.
+* Took on the role of 'security champion' within WMS to keep up-to-date with company wide security practices. Helped to organise threat modelling workshops with the company security architects to improve the security of our architecture.
+* Career managed a total of six engineers and assisted them in their personal development progression.
+* Worked on a product to transform processes within an area of the short term trading team that is heavily reliant on grey IT (Excel/VBA).
+* Worked on a product to automate certain trading decisions that were formerly manually calculated by trading team.
 </div>
 
 <div class="dont-break" markdown="1">
@@ -56,6 +62,8 @@
 * {$CAL} August 2021 - January 2023
 * {$MAP} Exeter, UK
 * Part of an engineering team in Wholesale Market Services supporting short term trading.
+* Worked in a product team of software engineers, quality assurance engineers and business analysts to create an application to support the traders in visualising their net open position. Built on React, AWS, Terraform, Lambdas, ECS Fargate, RDS Aurora, SNS, SQS, WAF.
+* Led the charge to adopt best security practices within the product team for the purposes of a company-wide initiative to become Cyber Essentials accredited.
 </div>
 
 <div class="dont-break" markdown="1">
