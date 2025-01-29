@@ -44,9 +44,16 @@
 <section id="experience" markdown="1">
 
 <div class="dont-break" markdown="1">
+### Lead software engineer, EDF Energy
+
+* {$CAL} October 2024 - Present
+* {$MAP} Exeter, UK
+</div>
+
+<div class="dont-break" markdown="1">
 ### Senior software engineer, EDF Energy
 
-* {$CAL} January 2023 - Present
+* {$CAL} January 2023 - October 2024
 * {$MAP} Exeter, UK
 * Senior engineer within an engineering team in Wholesale Market Services supporting short term trading.
 * Worked with direction from the lead engineer to standardise engineering practices across the wider WMS team.
