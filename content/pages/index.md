@@ -108,6 +108,7 @@ On December 7th 2017 I gave a talk at Tech Exeter about event sourcing.
 * API design
 * AWS
 * Azure
+* C#
 * Docker
 * Domain driven design
 * Elasticsearch
@@ -134,6 +135,7 @@ On December 7th 2017 I gave a talk at Tech Exeter about event sourcing.
 * TDD
 * Typescript
 * Unit testing
+* VBA
 
 </section>
 
