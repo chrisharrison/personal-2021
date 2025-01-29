@@ -10,6 +10,7 @@
 * API design
 * AWS
 * Azure
+* C#
 * Docker
 * Domain driven design
 * Elasticsearch
@@ -38,6 +39,7 @@
 * TDD
 * Typescript
 * Unit testing
+* VBA
 
 </section>
 
